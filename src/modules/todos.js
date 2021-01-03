@@ -5,7 +5,7 @@ const TOGGLE = 'todos/TOGGLE';
 const REMOVE = 'todos/REMOVE';
 
 // actions
-export const chageInput = () => ({
+export const changeInput = (input) => ({
   type: CHANGE_INPUT,
   input,
 });
@@ -58,7 +58,7 @@ const todos = (state = initialState, action) => {
     case INSERT:
       return {
         ...state,
-        todos: state.todos.concat(actions.todo),
+        todos: state.todos.concat(action.todo),
       };
 
     case TOGGLE:
