@@ -10,19 +10,23 @@
 
 ## 학습내용
 
-- redux 라이브러리
+- **redux** 라이브러리
   - `combineReducers`
   - `createStore`
   - `bindActionCreators`
-- react-redux 라이브러리
+- **react-redux** 라이브러리
   - `<Provider>`
   - `connect`
-- [Redux DevTool](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)을 이용하여 크롬 개발자 도구에서 Redux 상태 변화 확인하기
-- redux-devtools-extension 패키지
+  - `useSelector`, `useDispatch`
+- `useActions`
+- [**Redux DevTool**](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)을 이용하여 크롬 개발자 도구에서 Redux 상태 변화 확인하기
+- **redux-devtools-extension** 패키지
   - `composeWithDevTools`
-- redux-actions 라이브러리
+- **redux-actions** 라이브러리
   - `createAction`
   - `handleActions`
+- **immer** 라이브러리
+  - `produce`
 
 ## 실행하기
 
